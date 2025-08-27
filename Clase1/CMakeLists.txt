@@ -3,6 +3,7 @@ project(Clase1)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(slot1 slot1.cpp)
+add_executable(slot1 slot1.cpp
+        slot4.cpp)
 add_executable(slot2 slot2.cpp)
 add_executable(slot3 slot3.cpp)
